@@ -9,16 +9,12 @@ import GenreList from "./genres/page";
 
 export default function Home() {
 
-
   return (
-    <main className="bg-black">
-     <NavigationBar/>
-      
-      <GenreList/>
-    
-     
-
+    <main className="bg-orange">
+      <NavigationBar />
+      <GenreList />
     </main>
   );
+  
 }
 
